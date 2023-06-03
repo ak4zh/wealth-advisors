@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html,
+body {
+  @apply h-full overflow-hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  display: flex;
+  a {
+    margin-left: 4px;
+    font-size: 1.3rem;
+    display: none;
+    text-decoration: none;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  &:hover {
+    a {
+      display: block;
+      text-decoration: none;
+    }
+  }
+}
+
+.md-list {
+  a,
+  code {
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+  }
+}
+
+li {
+  white-space: normal !important;
+}
